@@ -1,0 +1,14 @@
+1/ Go to github.com
+2/ create a new repo
+3/ add name of the repo then create
+4/ go to command line
+5/ type cd ENTER
+6/ mkdir folder_name (same name as repo)
+7/ go inside the folder (repo)
+8/ nano README.md
+9/ git init
+10/ git add .
+11/ git commit -m "Done"
+12/ git remote add origin "copy your https or ssh link repo and paste it without ("")"
+13/ git push -u origin master
+CONGRATZ !!!
