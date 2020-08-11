@@ -1,0 +1,13 @@
+Don’t worry, pycodestyle is based on pep8
+Regular Ubuntu 14.04 install
+$ sudo apt-get install python3-pep8
+Using Pip3
+Install Pip3
+$ sudo apt-get install python3-pip
+Install Pep8
+$ pip3 install pep8
+Make sure you have the right version
+$ pep8 --version
+1.7
+$
+https://github.com/hhatto/autopep8
