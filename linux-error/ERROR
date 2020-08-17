@@ -1,0 +1,12 @@
+E: Sub-process /usr/bin/dpkg returned an error code (1)
+
+sudo fuser -v /var/cache/debconf/config.dat
+sudo kill PID_number
+sudo kill -9 PID_number  # if the first doesn't work
+sudo apt-get update && sudo apt-get upgrade
+if the process wont be finish then ctrl+c or ctrl+c then exit terminal 
+install soft u want (if it dosent work)
+sudo dpkg --configure -a 
+wait a momment for the termination ... 
+install soft u want. probly it will work because of the PID WAS killed so (if it dosent work)
+run again 'sudo dpkg --configure -a' to correct the problem. 
