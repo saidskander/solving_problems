@@ -1,6 +1,13 @@
-to push thithout password also type;
+-- To push thithout password also type --
 $ git config credential.helper store
 $ git push https://github.com/owner/repo.git
+
+-- Remove saved credential  --
+-- To remove saved password type: --
+$ git config --unset credential.helper
+
+-- If unset command didn't work, thats mean you have to delete the credential file type: --
+$ rm ~/.git-credentials
 
 Username for 'https://github.com': <USERNAME>
 Password for 'https://USERNAME@github.com': <PASSWORD>
